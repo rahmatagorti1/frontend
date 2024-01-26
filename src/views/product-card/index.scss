@@ -1,0 +1,104 @@
+.CardContainer {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  background: var(--white, #fff);
+  border-radius: 20px;
+  margin: 3px;
+
+  .product-header-flex {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .product-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .productName {
+    color: var(--Dark-Gray, #232321);
+    font-family: "Pontano Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .productType {
+    color: #040819;
+    font-family: "Pontano Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.6;
+    margin-bottom: 1rem;
+  }
+
+  .productPrice {
+    color: var(--Dark-Gray, #232321);
+    font-family: "Pontano Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .descriptionHeader {
+    color: var(--Dark-Gray, #232321);
+    font-family: "Pontano Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .descriptionBody {
+    color: var(--Dark-Gray, #232321);
+    font-family: "Pontano Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.6;
+  }
+
+  .cardFooter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .editButton {
+      padding: 13px 16px;
+      border-radius: 8px;
+      background: #3352e2;
+      color: var(--Pure-White, var(--white, #fff));
+      font-family: "Pontano Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border: none;
+      width: 175.5px;
+    }
+    .deleteButton {
+      padding: 13px 16px;
+      border-radius: 8px;
+      background: #fff;
+      color: var(--Pure-White, var(--white, #3352e2));
+      font-family: "Pontano Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border: none;
+      width: 175.5px;
+    }
+  }
+}
